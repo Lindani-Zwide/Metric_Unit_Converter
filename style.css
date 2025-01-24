@@ -1,0 +1,75 @@
+*{
+    padding:0;
+    margin:0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    pointer-events: all;
+    scroll-behavior: smooth;
+}
+body{
+    width: 100vw;
+    background-color:#e9e3e3;
+    border-radius: 1rem;
+}
+body,
+.header,
+.conversions,
+.conversions > div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header{
+    background-color:#0C4A6E ;
+    width:100%;
+    height: 32vh;
+}
+@font-face {
+    font-family: handWrittenFont;
+    src: url(Assets/Raistine-Wpp4G.otf);
+}
+.header p{
+    font-family: handWrittenFont;
+    font-size: 3rem;
+    color:#F9FAFB ;
+    padding: 0.5rem;
+}
+input{
+    background-color:#ECFDF5;
+    border:2.5px solid #0EA5E9;
+    padding: 1rem;
+    font-size: 1.2rem;
+    border-radius: 1rem;
+    margin: 1rem;
+}
+input::placeholder{
+    padding: 0.5rem 0.1rem;
+    font-size: 1.3rem;
+}
+.conversions{
+    justify-content: space-evenly;
+    min-height: 27.455rem;
+    width: 96vw;
+}
+.conversions > div{
+    background-color: #FFFFFF;
+    height: 6rem;
+    width: 100%;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+h4{
+    padding: 0.5rem 1rem;
+    font-weight: 550;
+    opacity: 0.8;
+    color: #0C4A6E;
+}
+.header img{
+    height: 2.8rem;
+    width: 2.8rem;
+    border-radius: 50%;
+    background-color: #0C4A6E;
+    rotate: 90deg;
+}
