@@ -54,28 +54,28 @@ inputField.addEventListener('input', (e) => {
     const celcius=fahrenheitToCelcius(userInput)
 
     lengthEl.innerHTML = `
-       ${userInput} <strong>m</strong> = ${feet} <strong>ft</strong> |
-       ${userInput} <strong>ft</strong> = ${meters} <strong>m</strong> 
+       ${userInput} <strong>m</strong> ≈ ${feet} <strong>ft</strong> |
+       ${userInput} <strong>ft</strong> ≈ ${meters} <strong>m</strong> 
     `;
 
     volumeEl.innerHTML = `
-       ${userInput} <strong>ℓ</strong> = ${gallons} <strong>L</strong> |
-       ${userInput} <strong>L</strong> = ${liters} <strong>ℓ</strong> 
+       ${userInput} <strong>ℓ</strong>≈ ${gallons} <strong>L</strong> |
+       ${userInput} <strong>L</strong> ≈ ${liters} <strong>ℓ</strong> 
     `;
 
     massEl.innerHTML=`
-       ${userInput} <strong>kg</strong> = ${pounds} <strong>lbs</strong> |
-       ${userInput} <strong>lbs</strong> = ${kilograms} <strong>kg</strong>
+       ${userInput} <strong>kg</strong> ≈ ${pounds} <strong>lbs</strong> |
+       ${userInput} <strong>lbs</strong> ≈ ${kilograms} <strong>kg</strong>
     `
     temperatureEl.innerHTML=`
-       ${userInput} <strong>°C</strong> = ${fahrenheit} <strong>°F</strong>  |
-       ${userInput} <strong>°F</strong>  = ${celcius} <strong>°C</strong>
+       ${userInput} <strong>°C</strong> ≈ ${fahrenheit} <strong>°F</strong>  |
+       ${userInput} <strong>°F</strong>  ≈ ${celcius} <strong>°C</strong>
     `
   } else {
-    lengthEl.innerHTML  = `1 <strong>m</strong> = 3.281 <strong>ft</strong> | 1 <strong>ft</strong> = 0.301 <strong>m</strong>`;
-    volumeEl.innerHTML  = ` 1 <strong>ℓ</strong> = 0.264 <strong>L</strong> | 1 <strong>L</strong> = 3.785 <strong>ℓ</strong> `;
-    massEl.innerHTML  = ` 1 <strong>kg</strong> = 2.205 <strong>lbs</strong> | 1 <strong>lbs</strong> = 0.454 <strong>kg</strong>`;
-    temperatureEl.innerHTML=` 1 <strong>°C</strong> = 33.8 <strong>°F</strong>  | 1 <strong>°F</strong>  = -17.222 <strong>°C</strong>`
+    lengthEl.innerHTML  = `1 <strong>m</strong> ≈ 3.281 <strong>ft</strong> | 1 <strong>ft</strong> ≈ 0.301 <strong>m</strong>`;
+    volumeEl.innerHTML  = ` 1 <strong>ℓ</strong> ≈ 0.264 <strong>L</strong> | 1 <strong>L</strong> ≈ 3.785 <strong>ℓ</strong> `;
+    massEl.innerHTML  = ` 1 <strong>kg</strong> ≈ 2.205 <strong>lbs</strong> | 1 <strong>lbs</strong> ≈ 0.454 <strong>kg</strong>`;
+    temperatureEl.innerHTML=` 1 <strong>°C</strong> ≈ 33.8 <strong>°F</strong>  | 1 <strong>°F</strong>  ≈ -17.222 <strong>°C</strong>`
   }
 });
 
